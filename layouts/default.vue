@@ -1,5 +1,5 @@
 <template>
-
+  <Conta />
 </template>
 
 <script>
