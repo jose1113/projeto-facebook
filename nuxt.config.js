@@ -2,7 +2,7 @@ export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Projeto Facebook',
+    title: 'Facebook - entre ou cadastre-se',
     htmlAttrs: {
       lang: 'pt-br'
     },
@@ -13,7 +13,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/facebook_logo.ico' }
     ]
   },
 
