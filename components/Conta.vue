@@ -13,7 +13,7 @@
         img-top
         tag="article"
         style="width: 160px; height: 160px;"
-        class="mb-2 text-center"
+        class="mb-2 text-center mr-3 hover"
       >
       </b-card>
       <b-card
@@ -30,7 +30,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   div{
     padding-top: 92px;
     padding-bottom: 132px;
@@ -66,7 +66,7 @@
     padding: 0;
     margin: 0;
   }
-  .card{
-    cursor: pointer;
+  .card:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   }
 </style>
