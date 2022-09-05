@@ -12,21 +12,6 @@ body{
   height: 106px;
   margin: -28px;
 }
-@media (max-width: 576px){
-  .logo img{
-      margin: -28px;
-  }
-  h2{
-    font-size: 20px !important;
-  }
-  .texto{
-    padding: 20px 0 28px;
-    width: 396px !important;
-  }
-  .paddingLogo{
-    margin: 0px 0px 0px 50px;
-  }
-}
 h2{
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   font-size: 28px;
@@ -114,4 +99,34 @@ form input{
 }
 .paddingLogo{
   padding-right: 32px;
+}
+@media (max-width: 576px){
+  .logo img{
+      margin: -28px;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  .texto{
+    padding: 20px 0 28px;
+    width: 396px !important;
+  }
+  .paddingLogo{
+    margin: 0px 0px 0px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .logo img{
+      margin: -28px;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  .texto{
+    padding: 20px 0 28px;
+    width: 396px !important;
+  }
+  .paddingLogo{
+    margin: 0px 0px 0px 150px;
+  }
 }
