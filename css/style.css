@@ -100,6 +100,45 @@ form input{
 .paddingLogo{
   padding-right: 32px;
 }
+footer{
+  background-color: white;
+  padding-top: 20px;
+}
+footer ul{
+  margin: 0 auto;
+  width: 980px;
+  color: #737373;
+}
+footer hr{
+    width: 980px;
+    margin: 0 auto;
+    margin: 8px 0px 8px 0px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #737373;
+  font-size: 12px;
+}
+footer ul li{
+  font-size: 12px;
+}
+footer ul li a:hover{
+  text-decoration: underline;
+  color: #737373;
+}
+footer ul li button {
+  border: 1px solid #8a8d91;
+  border-radius: 2px;
+  border-color: #ccd0d5;
+  background-color: #f5f6f7;
+  height: 18px;
+  width: 30px;
+  padding-bottom: 2px;
+  color: #737373;
+}
+footer ul li button:hover{
+  background-color: #ebedf0;
+}
 @media (max-width: 576px){
   .logo img{
       margin: -28px;
