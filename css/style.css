@@ -12,11 +12,26 @@ body{
   height: 106px;
   margin: -28px;
 }
+@media (max-width: 576px){
+  .logo img{
+      margin: 0;
+  }
+  .h2{
+    font-size: 10px !important;
+  }
+  .texto{
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px !important;
+  }
+}
 h2{
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: normal;
   line-height: 32px;
+}
+.texto{
   width: 500px;
 }
 p{
@@ -94,4 +109,7 @@ form input{
 }
 .esqueceuSenha a:hover{
   text-decoration: underline;
+}
+.paddingLogo{
+  padding-right: 32px;
 }
