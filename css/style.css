@@ -192,7 +192,7 @@ footer span{
 }
 @media only screen and (max-width: 768px) {
   .paddingLogo{
-    padding: 0;
+    margin-left: 9vw;
   }
   .logo img{
       margin: -28px;
@@ -203,6 +203,26 @@ footer span{
   .texto{
     padding: 20px 0 28px;
     width: 396px !important;
+  }
+  footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer hr{
+    width: 400px;
+  }
+  footer ul{
+    width: 400px;
+  }
+  .privacidade{
+    margin-left: 12px;
+  }
+  .escolhaAnuncios{
+    margin-left: 0px !important;
+  }
+  footer span{
+    margin-left: 57px;
   }
 }
 @media only screen and (max-width: 992px) {
