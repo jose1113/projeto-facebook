@@ -192,7 +192,7 @@ footer span{
 }
 @media only screen and (max-width: 768px) {
   .paddingLogo{
-    margin-left: 9vw;
+    margin-left: 13vw !important;
   }
   .logo img{
       margin: -28px;
@@ -210,10 +210,10 @@ footer span{
     flex-wrap: wrap;
   }
   footer hr{
-    width: 400px;
+    width: 560px !important;
   }
   footer ul{
-    width: 400px;
+    width: 560px !important;
   }
   .privacidade{
     margin-left: 12px;
@@ -221,13 +221,16 @@ footer span{
   .escolhaAnuncios{
     margin-left: 0px !important;
   }
+  .margin{
+    margin-right: 10px !important;
+  }
   footer span{
-    margin-left: 57px;
+    margin-left: 69px;
   }
 }
 @media only screen and (max-width: 992px) {
   .paddingLogo{
-    padding: 0;
+    margin-left: 10vw;
   }
   .logo img{
       margin: -28px;
@@ -237,6 +240,26 @@ footer span{
   }
   .texto{
     padding: 20px 0 28px;
-    width: 396px !important;
+    width: 500px !important;
+  }
+  form{
+    width: 500px !important;
+  }
+  .criarPagina{
+    width: 500px !important;
+  }
+  footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer hr{
+    width: 700px;
+  }
+  footer ul{
+    width: 800px;
+  }
+  .privacidade{
+    margin-left: 12px;
   }
 }
