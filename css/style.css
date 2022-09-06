@@ -155,7 +155,10 @@ footer span{
 .meta{
   width: 1005px;
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
+  .paddingLogo{
+    margin-left: 9vw;
+  }
   .logo img{
       margin: -28px;
   }
@@ -166,11 +169,31 @@ footer span{
     padding: 20px 0 28px;
     width: 396px !important;
   }
-  .paddingLogo{
-    margin: 0px 0px 0px 50px;
+  footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer hr{
+    width: 400px;
+  }
+  footer ul{
+    width: 400px;
+  }
+  .privacidade{
+    margin-left: 12px;
+  }
+  .escolhaAnuncios{
+    margin-left: 0px !important;
+  }
+  footer span{
+    margin-left: 23px;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .paddingLogo{
+    padding: 0;
+  }
   .logo img{
       margin: -28px;
   }
@@ -180,12 +203,12 @@ footer span{
   .texto{
     padding: 20px 0 28px;
     width: 396px !important;
-  }
-  .paddingLogo{
-    margin: 0px 0px 0px 150px;
   }
 }
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
+  .paddingLogo{
+    padding: 0;
+  }
   .logo img{
       margin: -28px;
   }
@@ -195,8 +218,5 @@ footer span{
   .texto{
     padding: 20px 0 28px;
     width: 396px !important;
-  }
-  .paddingLogo{
-    margin: 0px 0px 0px 270px;
   }
 }
